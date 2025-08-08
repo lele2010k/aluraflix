@@ -5,13 +5,13 @@ background: rgb(12, 12, 12);
 }
 
 header { 
-border-bottom: solid 2px rgb(133, 23, 74);
+border-bottom: solid 2px rgb(133, 23, 38);
 padding: 20px;
 font-size: 32px;
-color: rgb(129, 18, 79);
+color: rgb(129, 18, 18);
 }
 
-section { 
+.chamada { 
     background: rgb(206, 28, 28);
     padding-bottom: 80px;
     padding-top: 80px;
@@ -26,3 +26,14 @@ section {
   height: 200px;
 }
 
+.categoria-videos {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px:
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
