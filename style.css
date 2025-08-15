@@ -3,6 +3,7 @@ color: rgb(255, 255, 255);
 background: rgb(12, 12, 12);
  margin: 0px;
   font-family: "DM Serif Display", serif;
+  margin-bottom: 100px;
 }
 
 header { 
@@ -33,6 +34,7 @@ color: rgb(241, 241, 241);
 .categoria {
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 50px;
 
   }
 
@@ -44,4 +46,8 @@ height: 200px;
   .categoria-videos img:hover{
     opacity: 1.0;
     border:1px solid green;
+  }
+
+  .categoria h2 {
+    color: rgb(241, 241, 241);
   }
